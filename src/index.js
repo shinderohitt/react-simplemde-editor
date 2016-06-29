@@ -1,10 +1,10 @@
-var React = require('react');
+const React = require('react');
 // not ideal, but doesn't properly load codemirror
 // currently looking for a better solution
-var SimpleMDE = require('simplemde/dist/simplemde.min');
-var $ = require('jquery');
+const SimpleMDE = require('simplemde/dist/simplemde.min');
+const $ = require('jquery');
 
-let state = {
+const state = {
   previousValue: null
 }
 
